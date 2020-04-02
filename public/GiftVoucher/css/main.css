@@ -1,0 +1,1353 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400');
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400');
+
+/************************* *******Typography****** **************************/
+body {
+    background: #fff;
+    font-family: 'Lato', sans-serif;
+    color: #535556;
+    line-height: 26px;
+    font-size: 18px;
+    outline: none;
+    font-weight: 400;
+}
+
+p,
+li {
+    font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    color: #343434;
+}
+}
+
+.btn {
+    text-transform: capitalize;
+    border-radius: 0;
+    padding: 12px 10px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    font-weight: 600;
+}
+
+.btn:hover,
+.btn:focus {
+    color: #fff;
+}
+
+a img {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+
+button {
+    outline: none;
+}
+
+a:hover img {
+    opacity: 0.8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 48px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 26px;
+    color: #0c0c0c;
+    font-weight: 600;
+    line-height: 12px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+a {
+    color: #fff;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+
+hr {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #fff;
+}
+
+h2.sub-heading {
+    font-size: 40px;
+    color: #343434;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    padding-bottom: 36px;
+}
+
+h2.sub-heading span {
+    position: relative;
+    padding-bottom: 8px;
+}
+
+h2 span {
+    color: #e401c4;
+    font-weight: 400;
+}
+
+.section-heading h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #4ab5f1;
+    font-weight: 500;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn-primary {
+    padding: 8px 20px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.btn:hover,
+.btn:focus,
+.btn-primary:hover,
+.btn-primary:focus {
+    background: #3a72e4;
+    outline: none;
+    box-shadow: none;
+    border-color: #293f6e;
+}
+
+.btn-transparent {
+    border: 3px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+.btn-transparent:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+a:hover,
+a:focus {
+    color: #6993e6;
+    text-decoration: none;
+    outline: none;
+}
+
+body>section {
+    padding: 40px 0;
+}
+
+.center {
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.scaleIn {
+    -webkit-animation-name: scaleIn;
+    animation-name: scaleIn;
+}
+
+.lead {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.transparent-bg {
+    background-color: transparent !important;
+    margin-bottom: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+}
+
+/************************* *******Header****** **************************/
+.logo-nav {
+    max-width: 310px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+
+.top-banner {
+    padding: 5px 0 26px 0;
+    background-color: #fedd00;
+    text-align: center;
+    color: #002d46;
+}
+
+.top-banner h1 {
+    font-size: 36px;
+    padding: 0 0 6px 0;
+    color: #002d46;
+    font-weight: 500;
+}
+
+.top-banner a {
+    color: #002d46;
+    text-decoration: underline;
+}
+
+.top-banner p {
+    font-size: 20px;
+    margin-bottom: 12px;
+    text-align: center;
+    font-weight: 300;
+}
+header.header-bar.darkHeader {
+    background: #0000004d;
+}
+section.section-intro .row {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 50px;
+    position: fixed;
+    z-index: 9;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    left: 0;
+    right: 0;
+    padding: 25px 0px;
+    top: 0px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+}
+
+.HUS-Row-main {
+    display: flex;
+}
+
+header .row {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.section-intro {
+    padding: 45px 0 30px 0;
+    position: relative;
+    background: url(../images/ww2.jpg) no-repeat;
+    background-size: cover;
+    /*min-height: 800px;*/
+}
+
+section.section-intro:after {
+    position: absolute;
+    content: '';
+    /* background: rgba(255, 255, 255, 0.81); */
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.section-intro .container {
+    max-width: 80%;
+    position: relative;
+    z-index: 2;
+}
+
+.btn-support a.btn {
+    width: 100%;
+    max-width: 140px;
+    float: right;
+    font-size: 20px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    border: 1px solid #002d46;
+    font-weight: 400;
+    padding: 10px 10px 15px 10px;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    text-transform: capitalize;
+    margin-left: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.btn-support a.btn:hover {
+    background-color: #f600d4;
+    border-color: #f600d4;
+    color: #fff;
+}
+
+.intro-appStores {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.intro-appStores-logo {
+    max-height: 48px;
+    max-width: 162px;
+    margin-right: 12px;
+}
+
+.intro-video video {
+    width: 100%;
+    border: 10px solid rgb(255, 217, 0);
+    box-shadow: 2px 2px 32px #b5b0b0;
+}
+
+.banner-left {
+    position: relative;
+    width: 60%;
+}
+
+.banner-right {
+    text-align: center;
+    width: 40%;
+    padding-left: 30px;
+}
+
+.hero-banner {
+    max-width: 1170px;
+    margin: 0 auto;
+    margin-top: 15%;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.hero-banner h2 {
+    font-size: 58px;
+    color: #000;
+    margin-bottom: 70px;
+    line-height: normal;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    text-transform: capitalize;
+}
+
+.support_icon {
+    width: 125px;
+    height: 125px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    -moz-box-shadow: 0 0px 13px #e7e7e7;
+    -webkit-box-shadow: 0 0px 13px #e7e7e7;
+    box-shadow: 0 0px 13px #e7e7e7;
+    border-radius: 100px;
+    margin: auto;
+}
+
+.support_column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.support_icon .fa.fa-comments {
+    position: relative;
+    font-size: 70px;
+}
+
+.support_icon .fa {
+    font-size: 45px;
+    color: #4aa94f;
+}
+
+section.inner-pages.support_panel.section_padding {
+    margin: 15% 0 15% 0;
+}
+
+.support_icon .fa.fa-video-camera {
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: -5px 0 0 -13px;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.support_column p {
+    font-weight: 500;
+}
+
+.support_column h3 {
+    margin: 25px 0 5px;
+    color: #43dbff;
+    font-size: 24px;
+}
+
+.support_column a {
+    color: #787878;
+}
+
+/******************************/
+
+/*feature section css*/
+
+/******************************/
+.features-one .row {
+    display: flex;
+    align-items: center;
+}
+
+.features-one ul {
+    padding: 0;
+}
+
+.features-one ul li {
+    padding-left: 40px;
+    list-style: none;
+    font-size: 24px;
+    color: #002d46;
+    line-height: normal;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.features-one ul li:before {
+    position: absolute;
+    content: '';
+    height: 24px;
+    width: 24px;
+    background: url(../images/check.svg);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 5px;
+}
+
+.features-one ul li:before {
+    top: 1px;
+}
+
+.features-one {
+    margin-top: 50px;
+}
+
+.features-one.feature-two h2 {
+    margin-bottom: 40px;
+    color: #4ab5f1;
+    font-weight: 500;
+}
+
+.features-one.feature-two {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+section.features {
+    padding-top: 160px;
+}
+
+/******************************/
+
+/*feature section css end*/
+
+/******************************/
+
+/******************************/
+
+/*testimonial css*/
+
+/******************************/
+section.testimonial {
+    background: #f5f5f5;
+    padding: 50px 0 100px 0;
+    border-top: 1px solid #eae9e9;
+}
+
+#quote-carousel {
+    padding: 60px;
+    margin-top: 20px;
+    background: white !important;
+    box-shadow: 0px 0px 16px #ece5e5;
+}
+
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 60px;
+    text-shadow: none;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+
+#quote-carousel .carousel-indicators li {
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    -webkit-transition: all .4s ease-in;
+    -moz-transition: all .4s ease-in;
+    -ms-transition: all .4s ease-in;
+    vertical-align: middle;
+    background: rgb(224, 224, 224);
+    margin: 0 10px;
+}
+
+#quote-carousel .carousel-indicators .active {
+    background: #a9b7be;
+}
+
+#quote-carousel .item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+.slide-logo-appStore {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.slide-logo-appStore--stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-wrapper ul.slides li img {
+    width: 100%;
+}
+
+.slide-logo-appStore--star {
+    margin: 0 8px;
+}
+
+.slide-logo-appStore--text {
+    font-family: 'Rubik', sans-serif;
+    color: #002d46;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.slide-logo {
+    margin-bottom: 40px;
+}
+
+#quote-carousel blockquote p {
+    font-size: 17.5px;
+    font-weight: 300;
+    line-height: 1.25;
+    font-family: 'Rubik', sans-serif;
+    color: #002d46;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 300;
+    font-size: 24px;
+    max-width: 570px;
+    margin: 0 auto;
+}
+
+/******************************/
+
+/*testimonial css end*/
+
+/******************************/
+
+/******************************/
+
+/*footer css*/
+
+/******************************/
+.footer {
+    /*background-color: #02a5fd;*/
+
+    background-color: #4aa94f;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+    padding-top: 30px;
+    color: #fff;
+    background: #e800d9;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #e800d9 0%, #b700eb 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e800d9 0%, #b700eb 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e800d9 0%, #b700eb 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e800d9', endColorstr='#b700eb', GradientType=0);
+    /* IE6-9 */
+
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.footer-social--icon {
+    height: 32px;
+    width: 32px;
+    margin: 0 8px;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.footer-terms {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.right-border {
+    margin-right: 3px;
+    border-right: 1px solid white;
+}
+
+.footer-terms-item {
+    font-size: 15px;
+    line-height: inherit;
+    padding-right: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footer-terms-item a {
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    line-height: 1.71;
+    letter-spacing: 1px;
+}
+
+.footer-paybase {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding-bottom: 15px;
+}
+
+.footer-paybase span {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+.footer-legal {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*background-color: #008ad6;*/
+
+    background-color: #2c2e2f;
+    color: white;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 30px 40px 20px 40px;
+}
+
+.footer-legal p {
+    text-align: center;
+    margin-bottom: 8px;
+    font-size: 14px;
+    margin: 0 0 10px 0;
+    color: white;
+    font-weight: 300;
+    line-height: normal;
+}
+
+/******************************/
+
+/*footer css end*/
+
+/******************************/
+section.why-DepositApp {
+    background: #fff;
+    position: relative;
+}
+
+section.why-DepositApp p {
+    line-height: 34px;
+    font-weight: 400;
+}
+
+section.whatis-DepositApp {
+    background: #f8f8f8;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+section.whatis-DepositApp .container {
+    position: relative;
+    z-index: 2;
+}
+
+section.whatis-DepositApp .col-flex {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+section.whatis-DepositApp .col-flex h2 {
+    width: 100%;
+}
+
+section.whatis-DepositApp .left-img {
+    width: 40%;
+    text-align: center;
+    /*margin-top: 40px;*/
+
+    position: relative;
+}
+
+section.whatis-DepositApp .left-img:after {
+    position: absolute;
+    left: 0;
+    height: 360px;
+    width: 360px;
+    content: '';
+    bottom: 0px;
+    display: block;
+    background: #e401c44a;
+    z-index: 1;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+section.whatis-DepositApp .right_text {
+    width: 60%;
+    font-family: 'Oswald', sans-serif;
+}
+.right_text strong {
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.left-img img {
+    max-width: 300px;
+    position: relative;
+    z-index: 2;
+}
+
+section.whatis-DepositApp ul li {
+    margin-bottom: 30px;
+    line-height: 34px;
+    list-style: none;
+    padding: 0 0px 0 10px;
+    position: relative;
+    width: 50%;
+    /*float: left;*/
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    /*padding-top: 20px;*/
+
+    padding: 0px;
+    margin-top: 25px;
+}
+
+span.Icons {
+    padding-right: 15px;
+}
+
+p.instagram_1 {
+    text-align: center;
+    font-size: 18px;
+}
+
+/*section.whatis-DepositApp ul li:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f00c";
+    font-size: 28px;
+    position: absolute;
+    left: 0;
+    top: 7px;
+    color: #49a84e;
+    height: 30px;
+    width: 30px;
+}*/
+section.how-use-DepositApp {
+    background: #fff;
+    position: relative;
+}
+
+section.how-use-DepositApp .container {
+    position: relative;
+    z-index: 2;
+}
+
+section.how-use-DepositApp ul {
+    padding: 0;
+}
+
+section.how-use-DepositApp ul li {
+    margin-bottom: 20px;
+    line-height: 34px;
+    list-style: none;
+    padding: 0px 0px 0 45px;
+    position: relative;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    color: ##737373;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+li strong {
+    font-size: 20px;
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+section.how-use-DepositApp ul li:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f00c";
+    font-size: 28px;
+    position: absolute;
+    left: 0;
+    top: 7px;
+    color: #f600d4;
+    height: 30px;
+    width: 30px;
+}
+
+section.how-use-DepositApp p {
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+    color: #ed2224;
+}
+
+section.how-use-DepositApp .hus-row {
+    max-width: 935px;
+    margin: 0 auto;
+    /*    display: flex;
+    flex-wrap: wrap;*/
+
+    margin-top: 55px;
+}
+
+.intro-appStores.footer-app-btn {
+    padding-top: 50px;
+}
+
+.footer-app-btn .intro-appStores-logo {
+    max-height: 98px;
+    max-width: 220px;
+    margin-right: 12px;
+    width: 210px;
+}
+
+.row.flex-row1 {
+    display: flex;
+    align-items: center;
+}
+
+.Top_Header_selection {
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 0;
+}
+
+.Top_Header_selection div {
+    flex: 1;
+    text-align: center;
+}
+
+p.text_size {
+    font-size: 18px;
+    padding-top: 15px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 0.8px;
+    font-weight: 400;
+}
+
+span.img_icon {
+    min-height: 90px;
+    display: block;
+}
+
+/******************************/
+
+/*inner pages*/
+
+/******************************/
+section.section-intro.inner-pages-header {
+    background: #fff;
+}
+
+section.inner-pages h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #303030;
+}
+
+section.inner-pages ul {
+    padding: 0 0 0 20px;
+}
+
+section.inner-pages ul li {
+    list-style: none;
+    margin-bottom: 8px;
+    position: relative;
+    padding-left: 8px;
+}
+
+section.inner-pages ul li:before {
+    content: "\f00c";
+    font: normal normal normal 18px/1 FontAwesome;
+    position: absolute;
+    left: -20px;
+    top: 7px;
+    color: #49a84e;
+}
+
+section.inner-pages h3 {
+    margin-top: 30px;
+    line-height: 35px;
+}
+
+p.italic-text {
+    font-weight: 400;
+    font-style: italic;
+    color: #49a84e;
+}
+
+section.inner-pages p,
+section.inner-pages li {
+    font-size: 18px;
+}
+
+/******************************/
+
+/*inner pages end*/
+
+/******************************/
+.banner-wrapper {
+    padding: 10% 0 0;
+}
+
+.banner-wrapper h1 {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.banner-wrapper p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+
+.banner-wrapper .row {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.banner-caption {
+    flex: 0 0 60%;
+}
+
+.phone-slider {
+    width: 260px;
+    float: right;
+    background: url(../images/iphone.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    z-index: 4;
+    margin: 0;
+    padding: 0 17px;
+}
+
+.phone-screen {
+    margin: 60px 0 20px;
+    width: 100%;
+    height: 465px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner-wrapper .carousel-fade .carousel-inner .item {
+    transition-property: opacity;
+}
+
+.banner-wrapper .carousel-inner>.item {
+    max-height: 403px;
+    overflow: hidden;
+}
+
+.banner-wrapper .carousel-fade .carousel-inner .active {
+    opacity: 1;
+}
+
+.banner-wrapper .carousel-fade .carousel-inner .next {
+    left: 0;
+    transform: translate3d(0, 0, 0);
+}
+
+/******************************/
+
+/*media query css*/
+
+/******************************/
+@media(min-width: 768px) {
+    /* header.header-bar.darkHeader {
+        background: #fff;
+        padding: 10px 0;
+        box-shadow: 2px 2px 22px #f3eded;
+    } */
+
+    header.header-bar.darkHeader .logo-nav {
+        max-width: 240px;
+    }
+
+    header.header-bar.darkHeader .btn-support a.btn {
+        max-width: 125px;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 6px 10px 8px 10px;
+    }
+}
+
+@media(max-width: 1024px) {
+    .section-intro .container {
+        max-width: 100%;
+    }
+
+    .btn-support a.btn {
+        font-size: 15px;
+    }
+
+    .hero-banner h2 {
+        font-size: 35px;
+    }
+
+    .hero-banner h2 br {
+        display: none;
+    }
+
+    section.features {
+        padding-top: 90px;
+    }
+
+    header .row {
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 992px) {
+
+    .banner-left,
+    .banner-right {
+        width: 100%;
+    }
+
+    .banner-left {
+        margin-right: 0px;
+    }
+
+    .hero-banner {
+        bottom: 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .row.flex-row1 {
+        flex-wrap: wrap;
+    }
+
+    .whysnip-right {
+        text-align: center;
+    }
+
+    section.why-DepositApp {
+        padding-top: 0px;
+    }
+
+    section.whatis-DepositApp ul {
+        padding: 0 0 0 20px;
+    }
+
+    .logo-nav {
+        max-width: 220px;
+    }
+}
+
+@media(max-width: 767px) {
+    section.how-use-DepositApp ul li {
+        word-break: break-all;
+    }
+
+    p,
+    li {
+        font-size: 16px;
+        line-height: unset !important;
+    }
+
+    header {
+        background: #fff;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    body>section {
+        padding: 40px 0;
+    }
+
+    section.features {
+        padding-top: 40px;
+    }
+
+    h2 {
+        font-size: 32px;
+        margin-bottom: 25px;
+    }
+
+    .section-intro .container {
+        max-width: 100%;
+    }
+
+    .features-one .row {
+        flex-wrap: wrap;
+    }
+
+    section.top-banner p,
+    section.top-banner h1 {
+        padding: 0 10px;
+    }
+
+    .banner-left,
+    .banner-right {
+        width: 100%;
+    }
+
+    .banner-left {
+        margin-top: 30px;
+    }
+
+    .hero-banner {
+        flex-wrap: wrap;
+    }
+
+    .intro-appStores {
+        justify-content: center;
+    }
+
+    .intro-appStores-logo {
+        margin-right: 0;
+        max-width: 132px;
+    }
+
+    img.intro-appStores-logo.intro-appStores--google {
+        margin-left: 5px;
+    }
+
+    .hero-banner h2 {
+        margin-bottom: 30px;
+    }
+
+    .section-intro {
+        padding: 35px 0 30px 0;
+    }
+
+    .features-one.feature-two .feat_left {
+        order: 2;
+    }
+
+    #quote-carousel .carousel-control {
+        font-size: 40px;
+    }
+
+    .footer {
+        padding-top: 35px;
+    }
+
+    .footer-legal {
+        padding: 30px;
+    }
+
+    .footer-terms {
+        margin-bottom: 15px;
+    }
+
+    .btn-support a.btn {
+        font-size: 14px;
+        padding: 5px 20px;
+        max-width: 100px;
+    }
+
+    .features-one ul li {
+        font-size: 18px;
+    }
+
+    .footer-terms-item a {
+        font-size: 12px;
+    }
+
+    #quote-carousel blockquote p {
+        font-size: 16px;
+    }
+
+    .top-banner {
+        padding: 16px 0 26px 0;
+    }
+
+    .features-one {
+        margin-top: 20px;
+    }
+
+    .features-one.feature-two .feat_left,
+    .features-one .feat_right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .features-one.feature-two {
+        margin-top: 20px;
+    }
+
+    #quote-carousel {
+        margin-top: 0;
+        padding: 40px;
+    }
+
+    section.testimonial {
+        background: rgb(242, 242, 242);
+        padding: 30px 0;
+    }
+
+    section.whatis-DepositApp .left-img {
+        width: 100%;
+    }
+
+    section.whatis-DepositApp ul {
+        width: 100%;
+        margin-top: 25px;
+        padding-left: 0px;
+    }
+
+    .footer-app-btn .intro-appStores-logo {
+        max-width: 132px;
+    }
+
+    .whysnip-right {
+        text-align: center;
+    }
+
+    section.how-use-DepositApp ul li:before,
+    section.whatis-DepositApp ul li:before {
+        font-size: 23px;
+        left: 3px;
+    }
+
+    section.how-use-DepositApp {
+        padding-top: 0px;
+    }
+
+    .footer-terms-item {
+        display: block;
+        border: none !important;
+        text-align: center;
+    }

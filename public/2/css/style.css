@@ -1,0 +1,851 @@
+body {
+	font-family: 'Poppins';
+}
+
+header {
+	box-shadow: 0 3px 25px 0px #00000030;
+	;
+	position: relative;
+	z-index: 1;
+}
+
+.side_padding {
+	padding: 0px 30px;
+}
+
+button {
+	padding: 5px 25px;
+	background: #e81928;
+	border-radius: 30px;
+	color: white;
+	border: none;
+}
+
+header button {
+	padding: 5px 25px;
+	background: #e81928;
+	border-radius: 30px;
+	color: white;
+	border: none;
+}
+
+header ul li {
+	padding: 0px 15px;
+	text-align: right;
+}
+
+header .nav-link {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #fff;
+}
+
+header .navbar {
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+header .navbar-light .navbar-nav .nav-link:hover {
+	color: #e81928;
+	border-bottom: 1px solid #e81928;
+}
+
+.banner {
+	background: url(../Images/banner.png) no-repeat top center/ 100%;
+	min-height: 935px;
+	height: 100vh;
+	float: left;
+	width: 100%;
+}
+
+h1 {
+	font-size: 100px;
+	font-weight: bolder;
+	color: #e81928;
+}
+
+.databanner ul {
+	font-size: 50px;
+	font-weight: bold;
+	color: #000000;
+	list-style: none;
+	float: left;
+	width: 100%;
+	padding: 0px;
+	line-height: 50px;
+}
+
+.databanner ul li {
+	display: inline;
+	float: left;
+	padding: 0px 35px;
+	border-right: 2px solid #e81928;
+}
+
+.databanner ul li:first-child {
+	padding-left: 0px;
+}
+
+.databanner ul li:last-child {
+	padding-right: 0px;
+	border-right: none;
+}
+
+p {
+	font-size: 14px;
+	color: #696969;
+}
+
+.databanner h1 {
+	margin-top: 90px;
+}
+
+.databanner p {
+	float: left;
+	width: 86%;
+	;
+}
+
+.databanner button {
+	margin-top: 35px;
+}
+
+.aboutimage img {
+	padding: 0px;
+	width: 100%;
+}
+
+.aboutus {
+	float: left;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	margin-top: -200px;
+}
+
+.aboutus::before {
+	background: url(../Images/Splash.png) left 0px top 0px / 100% no-repeat;
+	height: 100vh;
+	position: absolute;
+	left: 0px;
+	top: -160px;
+	content: "fh";
+	width: 300px;
+	font-size: 0px;
+}
+
+.aboutus::after {
+	background: url(../Images/splash1.png) right 0px bottom 0px / 100% no-repeat;
+	height: 100vh;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	content: "fh";
+	width: 260px;
+	font-size: 0px;
+}
+
+.banner button {
+	margin-bottom: 100px;
+}
+
+h2 {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.aboutcontent {
+	padding-left: 60px;
+	margin-top: 150px;
+}
+
+.aboutcontent h3 {
+	font-size: 16px;
+	font-weight: 700;
+	font-style: italic;
+	color: #e60e10;
+	margin-top: 20px;
+}
+
+.aboutcontent p {
+	width: 82%;
+	margin-top: 30px;
+}
+
+.aboutcontent button {
+	margin-top: 30px;
+}
+
+.pizza_banner {
+	float: left;
+	width: 100%;
+	position: relative;
+	background: url(../Images/freebg.jpg) right 0px top 0px / 100% no-repeat;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.pizzatext h2 {
+	font-size: 100px;
+	color: #e81928;
+	font-family: impact;
+	display: inline-block;
+	text-shadow: 2px -2px #fff;
+}
+
+.main_text {
+	margin: -11px;
+}
+
+.pizzatext {
+	padding-top: 40px;
+}
+
+.pizzatext h2 {
+	margin-top: 0px;
+}
+
+.pizzatext h2 span {
+	font-size: 30px;
+	color: #fff;
+	margin-top: -15px;
+	display: block;
+	text-shadow: none;
+	font-weight: 100;
+}
+li.ios {
+    margin-right: 20px;
+}
+.pizzatext h3 {
+	display: inline-block;
+	font-size: 140px;
+	color: #fff;
+	font-family: impact;
+	margin-left: 20px;
+}
+
+.freeshipping {
+	text-align: center;
+	flex-direction: row;
+}
+
+.pizza_banner::before {
+	background: url(../Images/pizza.png) left 0px top 0px / 100% no-repeat;
+	height: 100vh;
+	position: absolute;
+	left: 0px;
+	top: 50px;
+	content: "fh";
+	width: 500px;
+	font-size: 0px;
+}
+
+.pizza_banner::after {
+	background: url(../Images/girl.png) right 0px bottom 0px / 100% no-repeat;
+	height: 100vh;
+	position: absolute;
+	right: 180px;
+	bottom: 20px;
+	content: "fh";
+	width: 260px;
+	font-size: 0px;
+}
+
+.pizza_banner button {
+	margin-bottom: 34px;
+}
+
+.works {
+	padding-bottom: 160px;
+}
+
+.works {
+	margin-top: 50px;
+	float: left;
+	width: 100%;
+	background: url(../Images/screens.png)right 0px top 200px / 40% no-repeat;
+	position: relative;
+}
+
+.works h2,
+.top_heading h2 {}
+
+.works h2,
+.top_heading h2 {
+	text-align: center;
+	padding-bottom: 20px;
+}
+img.img-2 {
+    margin: auto;
+    display: flex;
+}
+.work_text {
+	padding-top: 50px;
+}
+
+.works h4,
+.why_contt h4 {
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.works h6,
+.why_contt h6 {
+	font-size: 14px;
+	font-weight: 700;
+	color: #e60e10;
+	font-style: italic;
+	width: 80%;
+	margin-bottom: 20px;
+}
+
+.works p {
+	width: 91%;
+}
+
+.works::before {
+	background: url(../Images/Side-image.png) left 0px top 0px / 100% no-repeat;
+	height: 100vh;
+	position: absolute;
+	left: 0px;
+	content: "fh";
+	width: 180px;
+	font-size: 0px;
+}
+
+.works::after {
+	background: url(../Images/pan.png) left 0px bottom 0px / 100% no-repeat;
+	height: 100vh;
+	position: absolute;
+	bottom: 0px;
+	content: "fh";
+	width: 160px;
+	font-size: 0px;
+}
+
+.whychoose {
+	margin-top: -60px;
+	float: left;
+	width: 100%;
+	background: url(../Images/food_img.png)left 0px top 150px / 40% no-repeat;
+	position: relative;
+}
+
+.whychoose h2 {
+	background: url(../Images/line1.png) bottom left no-repeat;
+	padding-bottom: 20px;
+}
+
+.whychoose .work_text {
+	padding-top: 35px;
+}
+
+.app_banner {
+	background: url(../Images/blackbg.jpg) left 0px top 0px / 100% no-repeat;
+	float: left;
+	width: 100%;
+	position: relative;
+	margin-top: 100px;
+}
+
+.app_banner img {
+	margin-top: 10px;
+}
+
+.app_banner h2 {
+	color: #fff;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.app_banner p {
+	color: #9f9f9f;
+	margin-top: -5px;
+	width: 60%;
+	margin-bottom: 0px;
+}
+
+.app_banner h4 {
+	color: #fff;
+	float: left;
+	font-weight: 400;
+	font-size: 20px;
+	font-style: italic;
+	line-height: 46px;
+	margin-bottom: 20px;
+	position: relative;
+	z-index: 5;
+	display: inline;
+}
+
+.app_banner h4::after {
+	position: absolute;
+	content: "";
+	bottom: 12px;
+	left: 0px;
+	height: 1px;
+	background: #e60e10;
+	;
+	width: 235px;
+	z-index: -1;
+}
+
+.app_banner::before {
+	background: url(../Images/app_screen.png) right 0px top 0px / 80% no-repeat;
+	height: 100vh;
+	position: absolute;
+	right: 180px;
+	top: -40px;
+	content: "fh";
+	width: 500px;
+	font-size: 0px;
+}
+
+.app_banner ul {
+	float: left;
+	list-style: none;
+}
+
+.app_banner ul li {
+	float: left;
+}
+
+.app_banner ul li a {
+	float: left;
+}
+
+.app_banner ul li a img {
+	margin-top: 0px;
+}
+
+.top_brands {
+	float: left;
+	width: 100%;
+}
+
+.top_brands ul li {
+	float: left;
+	width: 20%;
+}
+
+.owl-dots span {
+	width: 50px;
+	height: 50px;
+	background: black;
+}
+
+.owl-dots {
+	text-align: center;
+}
+
+.owl-dots button {
+	width: 10px;
+	height: 10px;
+	background: #c4c6c9!important;
+	margin: 10px;
+}
+
+.owl-dots button.active {
+	background: #e81928!important;
+	width: 30px;
+}
+
+.owl-carousel .owl-item img {
+	width: auto;
+	margin: auto;
+}
+
+.outerimg {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 10px;
+	height: 150px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.top_heading {
+	margin-top: 80px;
+}
+
+.owl-carousel .owl-stage-outer {
+	padding-bottom: 30px;
+}
+
+footer {
+	background: #e0e4e9;
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+}
+
+.logo_text img {
+	padding-top: 60px;
+}
+
+.logo_text p {
+	padding-top: 10px;
+}
+
+footer ul,
+footer p {
+	font-size: 14px;
+	color: #6a6a6a;
+}
+
+footer .navigation ul {
+	padding-left: 15px;
+	padding-right: 0px;
+}
+
+footer ul li {
+	margin-bottom: 15px;
+}
+
+footer ul li a {
+	padding: 0px;
+	color: #2d2d2d;
+}
+
+footer ul li a.nav-link {
+	padding: 0px;
+}
+
+footer h2 {
+	font-size: 18px;
+	font-weight: 700;
+	color: #2d2d2d;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+.contactdata li {
+	line-height: 14px;
+	margin-bottom: 25px;
+}
+
+.contactft ul img {
+	float: left;
+	padding: 0px 20px 0px 0px;
+}
+
+.contactdata .social img {
+	padding: 0px 10px 0px 0px;
+}
+
+.subscribe input {
+	border-radius: 5px;
+	background: #d0d4d9;
+	bottom: 1px solid #7e868f;
+	font-size: 12px;
+	padding: 5px;
+	width: 100%;
+}
+
+.subscribe button {
+	border-radius: 5px;
+	background: #e81928;
+	margin-top: 10px;
+}
+
+.copyright {
+	float: left;
+	width: 100%;
+	border-top: 1px solid #cbd0d5;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.copyright p {
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+
+/********************************* responsive Start ******************************/
+
+@media (max-width: 1200px) {
+	.side_padding {
+		padding: 0px 20px;
+	}
+	.databanner h1 {
+		margin-top: 50px;
+		font-size: 60px;
+	}
+	.databanner ul {
+		font-size: 40px;
+		line-height: 40px;
+	}
+	.databanner ul li {
+		padding: 0px 25px;
+	}
+	.aboutus {
+		margin-top: -344px;
+	}
+	.aboutcontent {
+		margin-top: 90px;
+	}
+	.aboutus::before {
+		top: -200px !important;
+	}
+	.aboutus::after {
+		width: 200px;
+	}
+	.app_banner h2 {
+		font-size: 25px;
+	}
+	.app_banner::before {
+		right: 30px;
+	}
+	.works::before {
+		width: 150px;
+	}
+	.work_text {
+		padding-top: 30px;
+	}
+	ul.social-media li a img {
+		width: 100%;
+		max-width: 125px;
+		padding-left: 5px;
+	}
+	.banner button {
+		margin-bottom: 0;
+		margin: 15px 0;
+	}
+	.databanner ul li {
+		font-size: 32px;
+	}
+	.databanner h1 {
+		margin-top: 45px;
+		font-size: 50px;
+	}
+	header ul li {
+		padding: 0px 5px;
+		text-align: right;
+		font-size: 16px;
+	}
+	.pizzatext h2 span {
+		font-size: 21px;
+	}
+	.pizzatext h2 {
+		font-size: 70px;
+	}
+	.pizza_banner::after {
+		background: url(../Images/girl.png) right 0px bottom 0px / 100% no-repeat;
+		height: 100vh;
+		position: absolute;
+		right: 120px;
+		bottom: 11px;
+		content: "fh";
+		width: 220px;
+		font-size: 0px;
+	}
+	.pizzatext h3 {
+		display: inline-block;
+		font-size: 95px;
+	}
+	.pizzatext {
+		padding-top: 25px;
+	}
+	.pizza_banner::before {
+		background: url(../Images/pizza.png) left 0px top 0px / 100% no-repeat;
+		height: 100vh;
+		position: absolute;
+		left: 0px;
+		top: 39px;
+		content: "fh";
+		width: 400px;
+		font-size: 0px;
+	}
+	.logo-store img {
+		width: 100%;
+		max-width: 80px;
+	}
+}
+
+@media (max-width: 992px) {
+	.side_padding {
+		padding: 0px;
+	}
+	.databanner h1 {
+		margin-top: 30px;
+		font-size: 50px;
+	}
+	.databanner ul {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	.banner button {
+		margin-top: 10px;
+	}
+	.aboutus::before {
+		top: -185px;
+		width: 260px;
+	}
+	.aboutimage img {
+		margin-top: -25px;
+	}
+	.aboutcontent {
+		margin-top: 0px;
+	}
+	.whychoose h2 {
+		margin-top: -70px;
+	}
+	.app_banner::before {
+		width: 400px;
+	}
+	.app_banner {
+		margin-top: 50px;
+	}
+	.app_banner img {
+		width: 20%;
+	}
+	.app_banner a img {
+		width: 80S%;
+	}
+	.owl-carousel .owl-item img {
+		width: auto;
+		margin: auto;
+		width: 100%;
+		max-width: 100px;
+	}
+	.pizza_banner::after {
+		bottom: 15px;
+		width: 200px;
+	}
+}
+
+@media (max-width: 768px) {
+	.databanner h1 {
+		margin-top: 22px;
+		font-size: 40px;
+	}
+	.databanner ul li {
+		font-size: 25px;
+	}
+	.pizza_banner::before {
+		width: 260px;
+	}
+	.pizzatext h2 span {
+		font-size: 16px;
+		margin-top: -6px;
+	}
+	.pizzatext h3 {
+		display: inline-block;
+		font-size: 75px;
+	}
+	.pizzatext h2 {
+		font-size: 55px;
+	}
+	.pizza_banner::after {
+		background: url(../Images/girl.png) right 0px bottom 0px / 80% no-repeat;
+		height: 100vh;
+		position: absolute;
+		right: 40px;
+	}
+}
+
+@media (max-width: 480px) {
+	.aboutcontent {
+		padding-left: 25px;
+		margin-top: 150px;
+	}
+	.aboutcontent {
+		margin-top: 25px;
+	}
+	.aboutcontent button {
+		margin-top: 0px;
+	}
+	.aboutcontent p {
+		width: 82%;
+		margin-top: 15px;
+	}
+	.aboutcontent {
+		margin-top: 57px;
+	}
+	.aboutus::after {
+		background: url(../Images/splash1.png) right 0px bottom 0px / 70% no-repeat;
+		height: 71vh;
+		position: absolute;
+		right: 0px;
+		bottom: 0px;
+		content: "fh";
+		width: 215px;
+		font-size: 0px;
+		top: 20%;
+		display: none;
+	}
+	.works {
+		margin-top: 50px;
+		float: left;
+		width: 100%;
+		background: url(../Images/screens.png)right 0px top 200px / 40% no-repeat;
+		position: relative;
+		display: none;
+	}
+	.pizza_banner::after {
+		background: url(../Images/girl.png) right 0px bottom 0px / 80% no-repeat;
+		height: 100vh;
+		position: absolute;
+		right: 40px;
+		display: none;
+	}
+	.whychoose {
+		margin-top: 100px;
+		float: left;
+		width: 100%;
+		background: url(../Images/food_img.png)left 0px top 150px / 40% no-repeat;
+		position: relative;
+	}
+	.pizza_banner::before {
+		display: none;
+	}
+	.pizzatext h3 {
+		display: inline-block;
+		font-size: 77px;
+	}
+	.pizzatext h2 span {
+		font-size: 15px;
+		margin-top: -6px;
+	}
+	.pizzatext h2 {
+		font-size: 50px;
+	}
+	.pizza_banner {
+		float: left;
+		width: 100%;
+		position: relative;
+		background: url(../Images/freebg.jpg) right 0px top 0px / 250% no-repeat;
+		text-align: center;
+		margin-top: 50px;
+	}
+	.works h2,
+	.top_heading h2 {
+		text-align: right;
+	}
+	.works img {
+		width: 100%;
+		max-width: 138px;
+		float: right;
+		margin-top: -10px;
+	}
+	.works::before {
+		background: url(../Images/Side-image.png) left 0px top 0px / 100% no-repeat;
+		top: 45px;
+	}
+	.work-it {
+		margin-top: 70px;
+	}
+	li.col-sm-12.desicover {
+		padding: 0;
+		margin-top: 12px;
+		border: none;
+	}
+	.whychoose .work_text {
+		/* padding-top: 35px; */
+		margin: 0px;
+		padding: 0px;
+	}
+}

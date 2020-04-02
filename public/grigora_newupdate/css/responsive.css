@@ -1,0 +1,495 @@
+
+@media (max-width: 1200px) { 
+.dropdown.mega-menu {
+    margin-left: 50px;
+}
+.task-text h1 {
+    font-size: 45px;
+}
+.task-text h2 {
+    font-size: 37px;
+}
+}
+
+@media (max-width: 992px) { 
+
+.places-form {
+    padding: 25px;
+}
+
+.right-info ul li {
+    padding: 0 5px;
+}
+
+.navbar-light .navbar-toggler {
+    background: #fff;
+    border-radius: 0;
+    margin: 5px;
+    font-size: 14px;
+}
+.my-nav .navbar-nav .dropdown-menu:before{
+	display: none;
+}
+.d-hide{
+	display:block;
+}
+
+.carousel-text .input-group {
+    margin-top: 10px;
+    margin-bottom: 38px;
+}
+.dropdown.mega-menu {
+    margin-left: 5px;
+}
+.navbar-collapse .container {
+    max-width: 100%;
+}
+.right-info{
+	/*display: none;*/
+}
+.bottom-links {
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+/*.dm-none{
+	display: none;
+}*/
+.logo {
+    margin: 0 auto;
+    display: block;
+}
+/*.main-heading h2:before, .main-heading h2:after, .main-heading2 h2:before, .main-heading2 h2:after{
+	display: none;
+}*/
+.mega-menu .dropdown-menu {
+    overflow-x: scroll;
+}
+
+.task-text h1 {
+    font-size: 31px;
+}
+.task-text h2 {
+    font-size: 28px;
+}
+.b-task-logo p {
+    font-size: 13px;
+}
+.b-task {
+    width: 100%;
+}
+.b-task .form-tabs input:checked + label {
+    text-indent: 20px;
+}
+
+.cat-thumb {
+    margin-bottom: 30px;
+}
+
+}
+
+
+@media (max-width: 768px) { 
+
+.booking-inner {
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-right: 0;
+}
+.carousel-text h1 {
+    font-size: 25px;
+    font-family: roboto thin;
+}
+.carousel-text h3 {
+    padding-top: 0;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    padding: 10px 2px;
+}
+button.owl-prev{
+	left:-12px;
+}
+button.owl-next {
+    right: -12px;
+}
+.mega-menu .dropdown-menu {
+    min-width: max-content;
+    overflow-x: scroll;
+}
+.carousel-text .input-group {
+    margin-top: 15px;
+}
+.dropdown.cat-drop {
+    position: relative;
+    top: -22px;
+    right: 0;
+    text-align: center;
+}
+.comman-padding {
+    padding: 40px 0;
+}
+.card-section .card {
+    margin-bottom: 20px;
+}
+.right-content h2 {
+    padding-top: 50px;
+}
+/*figure.mob-img {
+    margin: 50px 0 0;
+}*/
+.left-links li a {
+    font-size: 12px;
+}
+.local {
+    padding: 0;
+}
+.row.view-row {
+    padding: 0px 0 0;
+}
+.app-btns_1 {
+    margin-right: 0px;
+    margin-bottom: 23px;
+}
+h2.Download {
+    font-size: 36px;
+}
+h2.Places {
+    font-size: 36px;
+}
+.right-info {
+    padding: 36px 0;
+}
+.main-heading2 {
+     margin-top: 0px; 
+}
+.bottom-footer {
+    padding: 0px 0;
+}
+/* Tasker Page */
+/* Tasker Page */
+
+.task-text h1 {
+    font-size: 25px;
+    display: inline-block;
+}
+.task-text {
+    text-align: center;
+    display: block;
+}
+.task-text p {
+    padding: 0 50px;
+    display: none;
+}
+.task-text h2 {
+    font-size: 26px;
+}
+.info-task {
+    display: block;
+    min-height: auto;
+    margin-top: 30px;
+}
+.b-task {
+    width: 100%;
+    margin: 20px auto 20px;
+}
+.b-task-logo p {
+    font-size: 12px;
+}
+.task-hub {
+    min-height: auto;
+}
+
+}
+
+
+
+
+@media (max-width: 769px) { 
+
+.form_tabs {
+    height: 48px;
+}
+.Subscribe_btn img {
+    width: 100%;
+    margin-top: 12px;
+    max-width: 181px;
+}
+.header-top {
+    background: #0478bc;
+    height: 60px;
+}
+.header-info-2 {
+    display: flex;
+    justify-content: center;
+}
+.header-info li {
+    margin: auto;
+    padding-top: 4px;
+}
+
+.logo {
+    max-width: 150px;
+    margin: 0 auto;
+    display: block;
+}
+/*a.sign_btn {
+    padding: 15px 15px;
+
+}*/
+
+.task-btn span {
+    font-size: 12px;
+
+}
+.right-info ul {
+   /* display: block;*/
+    text-align: center;
+}
+a.sign_btn {
+    padding: 15px 18px;
+}
+
+.task-btn {
+    padding: 15px 17px;
+}
+.right-info ul li a {
+    font-size: 12px;
+     letter-spacing: 0px; 
+}
+
+.form_tabs {
+    width: 100%;
+    max-width: 700px;
+}
+.carousel-text .input-group {
+    padding: 10px;
+}
+.carousel-text .input-group .form-control {
+    font-size: 14px;
+}
+/*.nav-link {
+     padding: 0; 
+}*/
+.booking-tabs-cntnt ul.nav.nav-pills.form_tabs {
+    height: 100%;
+}
+.mobile {
+    position: relative;
+    top: 44px;
+    right: 25px;
+}
+.app {
+    height: auto;
+}
+.right-info {
+   /* display: none;*/
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.carousel-text {
+    width: 90%;
+}
+.carousel-text .input-group {
+    margin-top: 10px;
+}
+.carousel-text h3 {
+    margin-bottom: 5px;
+    font-size: 22px;
+}
+.carousel-text h1 {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+.search-jobs {
+    margin-top: 4px;
+}
+.carousel-text .input-group-text {
+    font-size: 11px;
+}
+.carousel-text .input-group .form-control {
+    height: calc(1.5em + .75rem + 3px);
+}
+.search-jobs a {
+    font-size: 15px;
+}
+.search-jobs span {
+    font-size: 11px;
+}
+.mega-menu button {
+    font-size: 13px;
+    padding: 4px 15px;
+}
+.mega-menu .dropdown-menu {
+    min-width: 320px;
+ }
+ .local {
+    padding: 0 15px;
+    margin-top: 25px;
+}
+.carousel-text {
+    top: 59%;
+}
+
+ul.mega-inner li a img{
+	display: none;
+}
+ul.mega-inner li a {
+    padding: 0px 17px;
+    display: inline-block;
+}
+.mymultiplediv {
+    display: inline-block;
+}
+.links {
+    border-top: 1px solid #ddd;
+    margin: 15px 0 0 10px;
+    padding: 5px 0 0;
+}
+.links a {
+    padding: 10px 10px;
+    display: inline-block;
+}
+.bottom-footer p {
+    text-align: center;
+}
+ul.s-links {
+    justify-content: center;
+
+}
+
+
+/* Login Page */
+/* Login Page */
+.social-login {
+    display: block;
+    text-align: center;
+}
+.social-login img {
+    margin-bottom: 20px;
+}
+
+/* Signup Page */
+/* Signup Page */
+form.radio-boxx {
+    display: block;
+}
+[type="radio"]:checked + label:after {
+    left: 27%;
+}
+
+.hex-box {
+    margin: 35px auto 0;
+    height: 145px;
+}
+.hub-text {
+    margin-bottom: 60px;
+}
+
+
+.step-buttons ul {
+    display: block;
+    width: 100%;
+}
+.step-btn {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    text-indent: 0;
+}
+.step-btn:before, .step-btn:after{
+    display: none;
+}
+.step1-info {
+    display: block;
+    width: 100%;
+}
+.box {
+    position: relative;
+    width: 150px;
+}
+.step1-info small, .step1-info span, .step1-info .box, .step1-info input {
+    margin-bottom: 10px;
+    display: block;
+}
+.tree-service {
+    display: block;
+}
+.tree-btns {
+    margin: 20px 0;
+}
+.search-task {
+    display: block;
+}
+.task-bar {
+    display: block;
+}
+.task-bar span {
+    display: block;
+}
+}
+
+@media (max-width: 479px) {
+    .guest-pricee * {
+    max-width: 100%;
+    flex-basis: 100%;
+}
+ul.nav.nav-pills.form_tabs>li {
+    flex-basis: 32%;
+    margin: 10px 0;
+}
+    .carousel-inner {
+position: relative;
+width: 100%;
+overflow: hidden;
+max-height: 420px;
+}
+.carousel-text {
+top: 50px;
+}
+.carousel-text .input-group .form-control {
+    width: 100%;
+    margin: 0 0 10px;
+}
+.carousel-text .input-group .form-control {
+font-size: 14px;
+}
+.input-group-append, .input-group-prepend {
+display: -ms-flexbox;
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: center;
+flex-wrap: wrap;
+}
+.carousel-text .input-group-text {
+font-size: 14px;
+width: 100%;
+height: auto;
+padding: 10px;
+text-align: center;
+justify-content: center;
+}
+.carousel-text {
+    top: 225px;
+}
+
+button.category_btn {
+    margin: 15px 15px 0 0;
+}
+
+}
+
+/******** Personal Information ********/
+
+@media (max-width: 768px) { 
+
+.main_heading_top h3 {
+    text-align: center;
+}
+.right-info.information_page {
+    margin-top: 34px;
+}
+
+}

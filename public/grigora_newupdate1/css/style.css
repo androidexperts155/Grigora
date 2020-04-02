@@ -1,0 +1,966 @@
+/* All CSS Document */
+
+@import url("signup.css");
+@import url("become-tasker.css");
+@import url("steps.css");
+@import url("open-jobs.css");
+body {
+	font-family: 'Roboto';
+	overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Poppins';
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.comman-padding {
+	padding: 60px 0;
+}
+
+
+/* Header */
+
+
+/* Header */
+
+
+/*header {
+    padding: 20px 0;
+    border-top: 4px solid #ff6500;
+}*/
+
+.container-fluid.main-section {
+	width: 100%;
+	max-width: 1600px;
+}
+
+header.main-header {
+	background: #fff;
+	box-shadow: 0px 0px 125px 0px rgba(0, 0, 0, 0.16);
+	height: 100px;
+}
+
+.logo {
+	max-width: 115px;
+	padding: 11px 0;
+}
+
+.right-info {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 38px 0;
+}
+
+.right-info ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	align-items: center;
+	justify-content: center;
+}
+
+.right-info ul li {
+	padding: 0 10px 0 30px;
+}
+
+a.sign_btn {
+	background: #ed1a29;
+	padding: 12px 30px;
+	border-radius: 50px;
+	color: #fff !important;
+}
+
+.sign_btn:hover {
+	background: #f2161a;
+	text-decoration: none;
+}
+
+.right-info ul li a {
+	color: #000;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.9px;
+}
+
+.right-info ul li a:hover {
+	color: #ed1a29;
+}
+
+.task-btn {
+	background: #0478bc;
+	padding: 15px 30px;
+	border-radius: 5px;
+}
+
+.task-btn span {
+	color: #fff;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.9px;
+}
+
+.task-btn:hover {
+	background: #f2161a;
+	text-decoration: none;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.my-nav {
+	background: #ff6500;
+	padding: 0;
+}
+
+.my-nav .navbar-nav .nav-link {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	padding: 14px 15px;
+}
+
+.banner {
+	background: url(../images/Banner.png) no-repeat top center/ 100%;
+	height: 100vh;
+	min-height: 1045px;
+}
+ul.links-bn li {
+    font-size: 50px;
+    padding-right: 35px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: 'Poppins';
+}
+.banner-content h1 {
+	font-size: 80px;
+	font-weight: 700;
+	font-family: 'Poppins';
+	color: #ed1a29;
+}
+
+ul.links-bn li {
+	display: inline-block;
+}
+
+ul.links-bn li {
+	font-size: 50px;
+	padding-right: 35px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.banner-content p {
+	font-size: 18px;
+	line-height: 32px;
+	color: #7c7c7c;
+	margin-bottom: 30px;
+}
+
+button.order {
+	border: none;
+	background: #ed1a29;
+	padding: 10px 40px;
+	font-size: 22px;
+	border-radius: 50px;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+ul.links-bn {
+	margin-bottom: 18px;
+}
+
+.banner-content {
+	padding: 25% 0px;
+	width: 81%;
+}
+
+.about-img img {
+	width: 100%;
+}
+
+.about-content h1 {
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+button.Download {
+	border: none;
+	background: #ed1a29;
+	padding: 10px 40px;
+	font-size: 20px;
+	border-radius: 50px;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.about-content p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #7c7c7c;
+    margin-bottom: 30px;
+}
+section.About-area::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	background-image: url(../images/graphic-1.png);
+	top: -111px;
+	width: 345px;
+	height: 395px;
+	z-index: -1;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+section.About-area::before {
+	content: '';
+	position: absolute;
+	right: 0;
+	background-image: url(../images/graphic-2.png);
+	top: 400px;
+	width: 300px;
+	height: 300px;
+	z-index: -1;
+	background-position: top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+section.About-area {
+	position: relative;
+	margin-bottom: 80px;
+}
+
+.about-content img {
+	margin: 25px 0;
+}
+
+p.app {
+	color: #ed1a29;
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-style: italic;
+	margin-bottom: 18px;
+	font-weight: 500;
+}
+
+.add-area {
+	background: url(../images/banner-2.jpg) no-repeat top center/ 100%;
+	min-height: 350px;
+	background-size: cover;
+	background-position: bottom;
+}
+.work-img img {
+    width: 100%;
+    max-width: 670px;
+}
+.free-stop {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 110px 0 0 0;
+}
+
+.free-stop h1 {
+	font-size: 100px;
+	font-weight: 800;
+	color: #ed1a29;
+	text-shadow: 2px -2px #fff;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.free-stop span {
+	font-size: 28px;
+	color: #fff;
+	display: block;
+	margin-top: -19px;
+	text-shadow: none;
+}
+
+.free-stop h2 {
+	font-size: 100px;
+	font-weight: 800;
+	color: #fff;
+	display: inline-block;
+}
+
+section.add-area::after {
+	content: '';
+	position: absolute;
+	background-image: url(../images/girl.png);
+	bottom: 0;
+	width: 100%;
+	height: 420px;
+	z-index: 9;
+	background-position: top;
+	background-repeat: no-repeat;
+	max-width: 406px;
+	right: 120px;
+}
+
+section.add-area {
+	position: relative;
+}
+
+.order-btn {
+	text-align: center;
+	margin-top: 20px;
+}
+
+section.add-area {
+	position: relative;
+	margin-bottom: 80px;
+}
+
+.main-work {
+	text-align: center;
+	width: 100%;
+	margin-bottom: 70px;
+}
+
+.main-work h1 {
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+.main-work img {
+	margin-bottom: 70px;
+}
+
+.our-platform h2 {
+	font-size: 26px;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.our-platform p {
+	margin: 15px 0px;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 500;
+	color: #ed1a29;
+	line-height: 28px;
+}
+
+p.Platform-content {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #7c7c7c;
+}
+
+.Restaurants h2 {
+	font-size: 26px;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.Restaurants p {
+	margin: 15px 0px;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 500;
+	color: #ed1a29;
+	line-height: 28px;
+}
+
+p.Restaurants-content {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #7c7c7c;
+}
+
+.platform-2 h2 {
+	font-size: 26px;
+	letter-spacing: 1px;
+	font-weight: 600;
+}
+
+.platform-2 p {
+	margin: 15px 0px;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 500;
+	color: #ed1a29;
+	line-height: 28px;
+}
+
+p.platform-2-content {
+	font-weight: normal;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 28px;
+	color: #7c7c7c;
+}
+
+.how-it-work {
+	max-width: 520px;
+	width: 100%;
+	/* padding: 100px 0px; */
+	margin-left: auto;
+}
+.how-it-work.choose-1 {
+	margin-right: auto;
+	margin-left: 0;
+}
+.our-platform {
+	margin-bottom: 25px;
+}
+.how-it-work.choose-1 h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.Restaurants {
+	margin-bottom: 25px;
+}
+
+h2.Fun.App {
+	margin-top: 20px;
+}
+
+section.choose-us {
+	margin-top: 30px;
+	margin-bottom: 130px;
+}
+
+.work-img img {
+	width: 100%;
+	max-width: 900px;
+}
+
+.app-download {
+	background: url(../images/blackbg.jpg) no-repeat top center/ 100%;
+}
+
+ul.app-icons li {
+	display: inline-block;
+}
+
+.app-store p {
+	font-size: 18px;
+	color: #9f9f9f;
+	line-height: 32px;
+}
+
+p.app-link {
+	font-size: 24px;
+	font-weight: 500;
+	color: #fff;
+	letter-spacing: 1px;
+	font-style: italic;
+	text-decoration: underline;
+	margin-right: 25px;
+}
+
+.main-store {
+	display: flex;
+}
+
+ul.app-icons li {
+	padding-left: 20px;
+}
+
+img.logo-2 {
+	width: 100%;
+	max-width: 110px;
+}
+
+.app-store {
+	margin: 50px 0;
+}
+
+section.app-download::after {
+    content: '';
+    position: absolute;
+    background-image: url(../images/mobile-4.png);
+    bottom: -75px;
+    width: 100%;
+    height: 530px;
+    z-index: 9;
+    background-position: top;
+    background-repeat: no-repeat;
+    max-width: 630px;
+    right: 230px;
+}
+
+section.app-download {
+	position: relative;
+}
+
+.owl-dots span {
+	width: 50px;
+	height: 50px;
+	background: black;
+}
+
+.owl-dots {
+	text-align: center;
+}
+
+.owl-dots button {
+	width: 10px;
+	height: 10px;
+	background: #c4c6c9!important;
+	margin: 10px;
+}
+
+.owl-dots button.active {
+	background: #e81928!important;
+	width: 30px;
+}
+
+.owl-carousel .owl-item img {
+	width: auto;
+	margin: auto;
+}
+
+.outerimg {
+	box-shadow: 0px 0px 12.1px 0.1px rgba(0, 0, 0, 0.14);
+	height: 150px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	border-radius: 10px;
+	margin: 15px;
+}
+
+.top_heading {
+	margin-top: 80px;
+}
+
+.owl-dots button.active {
+	background: #e81928!important;
+	width: 30px;
+}
+
+.owl-carousel .owl-stage-outer {
+	padding-bottom: 30px;
+}
+
+.outerimg img {
+	width: 100%;
+	max-width: 130px;
+}
+
+button {
+	padding: 5px 25px;
+	background: #e81928;
+	border-radius: 30px;
+	color: white;
+	border: none;
+}
+
+.brands h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.brands img {
+	display: block;
+	margin: auto;
+}
+
+section.top-brands {
+	margin-top: 80px;
+}
+
+img.img-brand {
+	margin-bottom: 50px;
+}
+
+footer {
+	background: #e0e4e9;
+	width: 100%;
+	float: left;
+	margin-top: 30px;
+}
+
+.logo_text img {
+	padding-top: 60px;
+}
+
+.logo_text p {
+	padding-top: 10px;
+}
+
+footer ul,
+footer p {
+	font-size: 14px;
+	color: #6a6a6a;
+}
+
+footer .navigation ul {
+	padding-left: 15px;
+	padding-right: 0px;
+}
+
+footer ul li {
+	margin-bottom: 15px;
+}
+
+footer ul li a {
+	padding: 0px;
+	color: #2d2d2d;
+}
+
+footer ul li a.nav-link {
+	padding: 0px;
+}
+
+footer h2 {
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+
+.contactdata li {
+	line-height: 14px;
+	margin-bottom: 25px;
+}
+
+.contactft ul img {
+	float: left;
+	padding: 0px 15px 0px 0px;
+}
+
+.contactdata .social img {
+	padding: 0px 10px 0px 0px;
+}
+
+.subscribe input {
+	border-radius: 5px;
+	background: #d0d4d9;
+	bottom: 1px solid #7e868f;
+	font-size: 12px;
+	padding: 5px;
+	width: 100%;
+}
+
+.col-md-3.subscribe input {
+	border: 1px solid #7e868f;
+	padding: 8px;
+	font-size: 14px;
+}
+
+.subscribe button {
+	border-radius: 5px;
+	background: #e81928;
+	margin-top: 10px;
+}
+
+.copyright {
+	float: left;
+	width: 100%;
+	border-top: 1px solid #cbd0d5;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.copyright p {
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+section.work::after {
+    content: '';
+    position: absolute;
+    background-image: url(../images/img-1.png);
+    width: 100%;
+    z-index: -1;
+    background-position: top;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 60px;
+    max-width: 222px;
+    height: 200px;
+    background-size: cover;
+}
+
+section.work::before {
+	content: '';
+	position: absolute;
+	background-image: url(../images/img-2.png);
+	bottom: 0;
+	width: 100%;
+	z-index: 9;
+	background-position: top;
+	background-repeat: no-repeat;
+	left: -185px;
+	top: 75%;
+	max-width: 626px;
+}
+
+section.work {
+	position: relative;
+}
+
+section.choose-us::after {
+	content: '';
+	position: absolute;
+	background-image: url(../images/img-3.png);
+	bottom: 0;
+	width: 100%;
+	z-index: -1;
+	background-position: top;
+	background-repeat: no-repeat;
+	top: 0;
+	max-width: 590px;
+	right: -160px;
+	height: 100%;
+	background-size: contain;
+}
+
+section.choose-us {
+	position: relative;
+}
+
+@media (max-width: 1400px) {
+
+	button.order {
+		padding: 8px 32px;
+		font-size: 20px;
+	}
+	.banner-content p {
+		font-size: 16px;
+		line-height: 26px;
+	}
+	ul.links-bn li {
+		font-size: 36px;
+		padding-right: 35px;
+	}
+	.banner-content h1 {
+		font-size: 65px;
+	}
+	.banner-content {
+		padding: 7% 15px;
+	}
+
+	.banner {
+		min-height: 745px;
+	}
+	section.add-area::after {
+		content: '';
+		position: absolute;
+		background-image: url(../images/girl.png);
+		bottom: 0;
+		width: 100%;
+		height: 410px;
+		z-index: 9;
+		background-position: top;
+		background-repeat: no-repeat;
+		max-width: 400px;
+		right: 20px;
+	}
+	.add-area {
+		background: url(../images/banner-2.jpg) no-repeat top center/ 100%;
+		min-height: 0px;
+		background-size: cover;
+		background-position: bottom;
+		height: auto;
+	}
+	.free-stop {
+		padding: 62px 4px 6px 4px;
+	}
+	.order-btn {
+		margin-bottom: 30px;
+	}
+	.about-img img {
+		width: 100%;
+		max-width: 550px;
+	}
+
+	section.About-area::before {
+		content: '';
+		position: absolute;
+		right: 0;
+		background-image: url(../images/graphic-2.png);
+		top: 222px;
+		width: 225px;
+		height: 232px;
+		z-index: -1;
+		background-position: top;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	section.About-area::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		background-image: url(../images/graphic-1.png);
+		top: -105px;
+		width: 218px;
+		height: 273px;
+		z-index: -1;
+		background-position: top;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	section.work {
+		margin-bottom: 50px;
+	}
+	img.logo-2 {
+		width: 100%;
+		max-width: 85px;
+	}
+	.app-store {
+		margin: 5px 0;
+	}
+p.app-link {
+    font-size: 18px;
+    margin-right: 0px;
+}
+
+ul.app-icons li {
+    padding-left: 12px;
+}
+.app-store {
+    margin: 28px 25px;
+}
+section.app-download::after {
+    content: '';
+    position: absolute;
+    background-image: url(../images/mobile-4.png);
+    bottom: -150px;
+    width: 100%;
+    height: 475px;
+    z-index: 9;
+    background-position: top;
+    background-repeat: no-repeat;
+    max-width: 450px;
+    right: 140px;
+    background-size: contain;
+}
+}
+
+@media (max-width: 968px) { 
+
+	.right-info ul li {
+		padding: 0 0 0 19px;
+	}
+	a.sign_btn {
+		padding: 10px 21px;
+	
+	}
+	.banner-content h1 {
+		font-size: 50px;
+	}
+
+	ul.links-bn li {
+		font-size: 32px;
+		padding-right: 25px;
+	}
+	.banner-content p {
+		font-size: 16px;
+		line-height: 24px;
+		margin-bottom: 16px;
+
+	}
+	button.order {
+		padding: 8px 28px;
+		font-size: 18px;
+	}
+
+	.banner {
+		min-height: 545px;
+	}
+	section.add-area::after {
+		max-width: 439px;
+		right: -68px;
+		background-size: contain;
+	}
+
+	.free-stop h1 {
+		font-size: 75px;
+
+	}
+	.free-stop span {
+		font-size: 22px;
+		margin-top: -15px;
+	}
+
+	.free-stop h2 {
+		font-size: 75px;
+	}
+	section.app-download::after {
+		content: '';
+		position: absolute;
+		background-image: url(../images/mobile-4.png);
+		bottom: -36px;
+		width: 100%;
+		height: 475px;
+		z-index: 9;
+		background-position: top;
+		background-repeat: no-repeat;
+		max-width: 450px;
+		right: 24px;
+		background-size: contain;
+	}
+	.app-store p {
+		font-size: 16px;
+		color: #9f9f9f;
+		line-height: 24px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
